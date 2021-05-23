@@ -33,3 +33,5 @@ jobs:
           heroku_api_key: ${{secrets.HEROKU_API_KEY}}
           heroku_app_name: "aqueous-ravine-64281"
           heroku_email: "ryan.kennedy.physics@gmail.com"
+          healthcheck: "https://aqueous-ravine-64281.herokuapp.com/health"
+          checkstring: "ok"
