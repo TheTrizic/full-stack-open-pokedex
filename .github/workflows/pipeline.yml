@@ -35,3 +35,4 @@ jobs:
           heroku_email: "ryan.kennedy.physics@gmail.com"
           healthcheck: "https://aqueous-ravine-64281.herokuapp.com/health"
           checkstring: "ok"
+          rollbackonhealthcheckfailed: true
